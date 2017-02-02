@@ -2,10 +2,12 @@ button{
 	font-family: Arial,sans-serif;
     font-size: 1.8em;
     display: block;
-    height: 43px;
-    width:100%;
-    margin-top:5px;
-    margin-bottom: 5px;
+    height: 47px;
+    width:80%;
+    margin-left: 10%;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-weight: 600;
     text-align: center;
     background-color: : #fae630;
     background: -webkit-linear-gradient(#555,#2C2C2C);
@@ -14,20 +16,74 @@ button{
     background: -o-linear-gradient(#555,#2C2C2C);
     background: linear-gradient(#555,#2C2C2C);
     border-radius: 8px;
-    box-shadow: 0 0 5px rgba(0,0,0,0.5), 0 -1px 0 rgba(255,255,255,0.4);
+    box-shadow: 0 0 5px rgba(0,0,0,0.5), 0 -1px 0 rgba(225,225,225, 0.4);
     color: #fae630;
-    text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+    text-shadow: 0 1px 0 rgba(225,225,225,0.2);
+}
+
+.home{
+    text-align: center;
+
+}
+
+h1{
+    color: #FFF;
+}
+
+img{
+    margin-top: 15px;
+}
+
+.file{
+    color: #FFF;
+}
+
+input, textarea{
+    margin: 5px;
+    border-radius: 7px;
+}
+
+.div_center{
+    text-align: center;
+}
+
+ion-content{
+    background-color: #2d2f30;
+}
+
+.button-home{
+    position: absolute;
+    width: 80%;
+    height: 120px;
+    margin-left: 10%;
+    margin-top: 20px;
+    z-index: 2000;
+    left: 0px;
+    background: rgba(55,55,55,0.8);
+}
+
+.button-saisir{
+    top:378px;
+}
+
+.button-scan{
+
 }
 
 #change{
     display: none;
 }
+
 .bar{
     background-color: #fae630;
     font-size: 1.2em;
 }
 
-[required]{
+:required {
+    box-shadow: 0 0 3px rgba(255,0,0.5);
+}
 
-    border: 2px dotted orange;
+.qrcode{
+    width: 95%;
+    z-index:1000;
 }
